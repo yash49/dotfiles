@@ -46,6 +46,8 @@ alias gca='git commit --amend'
 alias pn='pnpm'
 alias pd='pnpm dev'
 alias pb='pnpm build'
+alias pi='pnpm i --prefer-offline'
+alias pa='pnpm add' 
 
 
 
