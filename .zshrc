@@ -35,6 +35,7 @@ alias gb='git branch'
 alias gbc='git checkout -b'
 alias gca='git commit --amend'
 alias glog='git log --graph --pretty=format:"%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset" --abbrev-commit --date=relative'
+alias gsc='f(){ git checkout $(git branch -r --format "%(refname:lstrip=3)" | grep -m 1 $1); unset -f f; }; f '
 
 
 
