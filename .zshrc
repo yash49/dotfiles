@@ -34,6 +34,7 @@ alias gf='git fetch --all'
 alias gb='git branch'
 alias gbc='git checkout -b'
 alias gca='git commit --amend'
+alias glog='git log --graph --pretty=format:"%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset" --abbrev-commit --date=relative'
 
 
 
